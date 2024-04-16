@@ -1,7 +1,7 @@
 {
   "name": "RicardoAcosta15/talendig-pokeapi@dev",
   "type": "policy-set",
-  "description": "Example description",
+  "description": "Pryoecto Final para Administracion de la Configuracion",
   "build": [
     {
       "name": "masterfiles",
