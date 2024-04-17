@@ -86,6 +86,18 @@
       "steps": [
         "copy ./os-is-vendor-supported.json .no-distrib/compliance-report-definitions/os-is-vendor-supported.json"
       ]
+    },
+    {
+      "name": "library-for-promise-types-in-python",
+      "version": "0.2.2",
+      "description": "Library enabling promise types implemented in python.",
+      "tags": ["supported", "library"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/cfengine",
+      "commit": "813fb3d172c8db5642ef69cd5e8ef32b264ef275",
+      "subdirectory": "libraries/python",
+      "added_by": "cfbs add",
+      "steps": ["copy cfengine.py modules/promises/"]
     }
   ],
   "git": true
